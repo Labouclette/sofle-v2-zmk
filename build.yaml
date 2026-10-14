@@ -17,10 +17,13 @@ include:
     shield: sofle_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: sofle_left-nice_nano_v2
 
   - board: nice_nano//zmk
     shield: sofle_right
     cmake-args: -DEXTRA_DTC_OVERLAY_FILE=/__w/sofle-v2-zmk/sofle-v2-zmk/config/boards/shields/sofle/sofle_right.overlay
+    artifact-name: sofle_right-nice_nano_v2
 
   - board: nice_nano//zmk
     shield: settings_reset
+    artifact-name: settings_reset-nice_nano_v2
