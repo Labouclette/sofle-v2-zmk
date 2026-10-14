@@ -53,7 +53,7 @@ layers:
   - KP 3
   - KP DOT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - raise
   - {type: held}
