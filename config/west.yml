@@ -14,7 +14,7 @@ manifest:
 
     - name: zmk-driver-pim447
       remote: Labouclette
-      revision: main
+      revision: master
       path: modules/zmk-driver-pim447
 
   self:
