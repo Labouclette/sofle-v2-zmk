@@ -3,8 +3,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: mwandzik
-      url-base: https://github.com/mwandzik
+    - name: Labouclette
+      url-base: https://github.com/Labouclette
 
   projects:
     - name: zmk
@@ -13,8 +13,8 @@ manifest:
       import: app/west.yml
 
     - name: zmk-driver-pim447
-      remote: mwandzik
-      revision: master
+      remote: Labouclette
+      revision: main
       path: modules/zmk-driver-pim447
 
   self:
