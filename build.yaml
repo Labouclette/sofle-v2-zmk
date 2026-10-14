@@ -20,7 +20,7 @@ include:
 
   - board: nice_nano//zmk
     shield: sofle_right
-    cmake-args: -DEXTRA_DTC_OVERLAY_FILE=/__w/sofle-v2-zmk/sofle-v2-zmk/config/sofle_right.overlay
+    cmake-args: -DEXTRA_DTC_OVERLAY_FILE=/__w/sofle-v2-zmk/sofle-v2-zmk/config/boards/shields/sofle/sofle_right.overlay
 
   - board: nice_nano//zmk
     shield: settings_reset
