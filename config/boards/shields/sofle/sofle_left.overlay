@@ -1,0 +1,6 @@
+
+/ {
+    left_split_device {
+        compatible = "zmk,input-split-device";
+    };
+};
