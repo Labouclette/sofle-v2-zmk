@@ -4,7 +4,7 @@
 
     trackball_pim447: trackball@a {
         compatible = "pimoroni,trackball_pim447";
-        reg = <0x0a>;
+        reg = <0x0b>;
 
         sensitivity = <64>;
         move-factor = <2>;
