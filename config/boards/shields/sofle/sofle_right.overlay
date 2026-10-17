@@ -4,15 +4,15 @@
 
     trackball_pim447: trackball@a {
         compatible = "pimoroni,trackball_pim447";
-        reg = <0x0b>;
+        reg = <0x0A>;
 
         sensitivity = <64>;
         move-factor = <2>;
         scroll-factor = <1>;
 
-        led-red = <0>;
+        led-red = <255>;
         led-green = <0>;
-        led-blue = <255>;
+        led-blue = <0>;
     };
 };
 
