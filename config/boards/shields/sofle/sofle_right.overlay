@@ -7,10 +7,10 @@
         reg = <0x0A>;
 
         sensitivity = <64>;
-        move-factor = <6>;
+        move-factor = <12>;
         scroll-factor = <1>;
 
-        led-red = <255>;
+        led-red = <150>;
         led-green = <0>;
         led-blue = <0>;
     };
