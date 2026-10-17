@@ -17,12 +17,14 @@
 };
 
 / {
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball_pim447>;
-    };
+    split_inputs {
+        #address-cells = <1>;
+        #size-cells = <0>;
 
-    right_split_device {
-        compatible = "zmk,input-split-device";
+        trackball_split: trackball_split@0 {
+            compatible = "zmk,input-split";
+            reg = <0>;
+            device = <&trackball_pim447>;
+        };
     };
 };
