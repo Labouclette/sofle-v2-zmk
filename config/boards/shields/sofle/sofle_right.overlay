@@ -6,7 +6,7 @@
         compatible = "pimoroni,trackball_pim447";
         reg = <0x0A>;
 
-        sensitivity = <64>;
+        sensitivity = <128>;
         move-factor = <10>;
         scroll-factor = <1>;
 
