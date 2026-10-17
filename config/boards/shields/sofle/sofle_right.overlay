@@ -12,7 +12,7 @@
 
         led-red = <0>;
         led-green = <0>;
-        led-blue = <1>;
+        led-blue = <255>;
     };
 };
 
